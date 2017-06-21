@@ -1,0 +1,31 @@
+1、目录结构
+code/
+	src/ 指派模型结合分支定界源代码，java编写
+	build.sh java源代码编译打包脚本，运行生成zte2017.jar
+	run.sh java代码运行脚本, sh run.sh /xxx/topo.csv /xxx/demand.csv /xxx/result.csv即可运行
+	MakeList.txt java代码编译辅助文件
+	lp/ 线性规划+lpsolve求解器，源代码及可执行文件，用c++编写;
+		zte.out 可执行文件， 当前目录下运行程序 ./zte.out /xxx/topo.csv /xxx/demand.csv /xxx/result.csv
+		main.cpp 线性规划求解源代码
+
+case/
+	含20个测试用例，case0为赛题上用例;case1-3为验证程序正确性用例；case4-6为中等规模测试用例,测试性能；case7-20为大规模测试用例，测试性能
+	用例格式说明.txt  说明测试用例的格式
+
+zte2017-paper.pdf , 算法论文
+
+程序说明及用例分析测试.pdf,程序的使用说明，用例设计及测试；（一定要看这个文档呀！！）
+	
+说明.txt(你正在看的文本)
+
+2、团队成员
+	刘航：华中科技大学电信学院
+	徐安：电子科技大学计算机学院
+3、分工
+	刘航：负责指派问题+分支定界算法模型建立及代码编写，负责论文撰写；
+	徐安： 负责线性规划+lpsolve算法模型建立及代码编写，协助论文撰写；
+
+	
+	
+
+
